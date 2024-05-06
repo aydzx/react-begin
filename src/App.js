@@ -1,7 +1,7 @@
 // import '../index.scss';
 // import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Home, Counter, Modal, Quiz } from './pages/';
+import { Home, Counter, Modal, Quiz, UsersPage } from './pages/';
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/modal" element={<Modal />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/users" element={<UsersPage />} />
       </Routes>
   </>
 

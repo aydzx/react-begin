@@ -24,6 +24,7 @@ export const Home = () => {
         <button onClick={onClickCounter} className="counter">Counter</button>
         <button onClick={onClickModal} className="counter">Modal</button>
         <button onClick={onClickQuiz} className="counter">Quiz</button>
+        <button onClick={() => {navigate('/users')}} className="counter">Users</button>
         </div>
       </div>
     </>
